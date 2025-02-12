@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+
+/* ================================Task-1====================== */
+
+.js-my-categories {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  height: 888px;
+}
+
+.js-title-categories {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.js-categories-list {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  height: auto;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+}
+.js-categorues-list-items {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: auto;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+/* ================================Task-2====================== */
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  row-gap: 48px;
+  width: 1440px;
+  height: 848px;
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.js-img-item {
+  display: block;
+  width: 360px;
+  object-fit: cover;
+  height: 100%;
+  
+}
+        
+
+/* ================================Task-3====================== */
+
+.js-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  outline: transparent;
+}
+.js-input:hover {
+  border: 1px solid #000;
+}
+.js-input:active {
+  border: 1px solid #808080;
+}
+
+.js-input-box {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+}
+
+ .js-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+ }
+
+
+/* ================================Task-4====================== */
+
+.js-login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.js-label-class {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.js-input-class {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  outline: transparent;
+}
+
+.js-input-class:hover{
+  border: 1px solid #000;
+}
+
+.js-input-class:active {
+  border: 1px solid #808080;
+}
+
+.js-btn-form {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  cursor: pointer;
+}
+
+.js-btn-form:hover {
+  background-color: #6c8cff;
+}
+
+/* ================================Task-5====================== */
+
+.widget {
+border-radius: 8px;
+padding: 100px 88px;
+width: 345px;
+height: 280px;
+background-color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  outline: transparent;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* ================================Task-6====================== */
+
+ 
