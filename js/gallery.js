@@ -83,12 +83,13 @@ gallery.insertAdjacentHTML("beforeend", galleryHTML);
 
 function handleClick(e) {
   e.preventDefault();
-  const target = e.target.closest(".gallery-link");
+  const target = e.target.closest(".gallery-image");
   if (!target) return;
-  const largeImage = target.getAttribute("href");
-  basicLightbox.create(`
+  const largeImage = target.getAttribute("data-source");
+  const instance = basicLightbox.create(`
     <img src="${largeImage}" width="1112" height="640">
-  `).show();
+  `)
+  instance.show();
 };
 gallery.addEventListener("click", handleClick);
 
